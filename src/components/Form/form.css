@@ -1,0 +1,90 @@
+.wrapper__form {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+.formik__wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(1, 0, 80);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formik {
+    width: 25%;
+    margin: 50px auto 20px;
+    background-color: rgb(1, 0, 80);
+    padding: 12% 0 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px;
+}
+.form__item {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.id {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+}
+.input {
+    width: 65%;
+    border-radius: 50px;
+    border: 0;
+    outline: none;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+.error {
+    margin: 10px 0 10px 90px;
+    color: red;
+    font-size: 0.9rem;
+}
+.btn__form {
+    margin-top: 20px;
+    width: 48%;
+    padding: 20px;
+    border-radius: 50px;
+    border: 0;
+    background-color: rgb(0, 183, 207); 
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+.btn:hover {
+    background-color: rgb(21, 64, 255);
+}
+.accept {
+    border-radius: 50px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    color: green;
+}
+.buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.green {
+    background-color: green;
+}
+.grey {
+    background-color: rgb(133, 133, 133);
+}
